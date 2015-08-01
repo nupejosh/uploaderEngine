@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/nupejosh/ruby-api.git
+  revision: 8db4f858ffc0dfa6c6979f338e47a680c536f458
+  specs:
+    ruby_api (0.0.1)
+      rails (~> 4.2.1)
+      thor
+
 PATH
   remote: .
   specs:
@@ -102,5 +110,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ruby_api!
   sqlite3
   upload_engine!

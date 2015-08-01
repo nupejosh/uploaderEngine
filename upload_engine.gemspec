@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = UploadEngine::VERSION
   s.authors     = ["JoshS"]
   s.email       = ["wolfpack@vulk.co"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of UploadEngine."
-  s.description = "TODO: Description of UploadEngine."
+  s.homepage    = ""
+  s.summary     = "UploadEngine will handle uploads from javascript frontend frameworks"
+  s.description = "The UploadEngine will use paperclip to handle downloads background jobs will handle processing before files are sent to Amazon S3"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
