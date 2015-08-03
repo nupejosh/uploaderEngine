@@ -13,3 +13,4 @@ gemspec
 # To use a debugger
 # gem 'debugger', group: [:development, :test]
 gem "ruby_api", git: "https://github.com/nupejosh/ruby-api.git"
+gem "paperclip", "~> 4.3"
