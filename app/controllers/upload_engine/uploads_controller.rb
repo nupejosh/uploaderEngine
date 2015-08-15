@@ -41,16 +41,23 @@ module UploadEngine
       else
         render :json => { :errors => @uploads.errors.full_messages }, :status => 422
       end
-    else
-      render :json => { :errors => @uploads.errors.full_messages }, :status => 422
     end
-  end
 
-  protected
+    protected
 
-  def upload_params
-    # add your column list here
-    params.require(:upload).permit(
-    )
-  end
+    def upload_params
+      # add your column list here
+      params.require(:upload).permit(
+        :id,
+        :created_at,
+        :updated_at,
+        :title,
+        :image_link,
+        :file_name,
+        :file_file_name,
+        :file_content_type,
+        :file_file_url
+      )
+    end
+  end 
 end
